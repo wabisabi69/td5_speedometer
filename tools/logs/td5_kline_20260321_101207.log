@@ -1,0 +1,17 @@
+2026-03-21 10:12:07.484  INFO      Logging to logs\td5_kline_20260321_101207.log
+2026-03-21 10:12:07.485  INFO      ========================================================================
+2026-03-21 10:12:07.485  INFO      TD5 K-Line Test  —  session started
+2026-03-21 10:12:07.486  INFO      Args: port=COM8, raw=True, count=0
+2026-03-21 10:12:07.486  INFO      ========================================================================
+2026-03-21 10:12:07.486  INFO      Opening COM8 at 10400 baud...
+2026-03-21 10:12:07.515  INFO      Fast init: sending 25ms break...
+2026-03-21 10:12:07.572  DEBUG     Fast init complete, baud=10400, input buffer flushed
+2026-03-21 10:12:07.573  INFO      Sending init frame...
+2026-03-21 10:12:07.573  DEBUG     TX (  5 bytes): 81 13 F7 81 0C
+2026-03-21 10:12:07.597  DEBUG     RX (  6 bytes): 81 13 F7 81 0C 03
+2026-03-21 10:12:07.598  INFO        Init response OK (6 bytes)
+2026-03-21 10:12:07.598  DEBUG       Init response data: 81 13 F7 81 0C 03
+2026-03-21 10:12:07.653  INFO      Starting diagnostic session...
+2026-03-21 10:12:07.654  DEBUG     TX (  4 bytes): 02 10 A0 B2
+2026-03-21 10:12:07.671  DEBUG     RX (  6 bytes): C1 57 8F AA 02 10
+2026-03-21 10:12:07.671  ERROR     Bad start-diag response: C1 57 8F AA 02 10

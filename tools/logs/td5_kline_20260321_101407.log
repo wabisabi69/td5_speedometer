@@ -1,0 +1,19 @@
+2026-03-21 10:14:07.589  INFO      Logging to logs\td5_kline_20260321_101407.log
+2026-03-21 10:14:07.590  INFO      ============================================================
+2026-03-21 10:14:07.590  INFO      TD5 K-Line Test v2 (echo-aware)
+2026-03-21 10:14:07.590  INFO      Port: COM8  Raw: True
+2026-03-21 10:14:07.590  INFO      ============================================================
+2026-03-21 10:14:07.591  INFO      Opening COM8 at 10400 baud...
+2026-03-21 10:14:07.625  INFO      Fast init: 25ms break on K-line...
+2026-03-21 10:14:07.682  DEBUG     Fast init complete
+2026-03-21 10:14:07.683  INFO      Sending init frame...
+2026-03-21 10:14:07.684  DEBUG     TX (  5): 81 13 F7 81 0C
+2026-03-21 10:14:07.690  DEBUG     ECHO (  5): 81 13 F7 81 0C
+2026-03-21 10:14:07.706  DEBUG     RX (  5): 03 C1 57 8F AA
+2026-03-21 10:14:07.707  INFO        Init response OK (5 bytes): 03 C1 57 8F AA
+2026-03-21 10:14:07.763  INFO      Starting diagnostic session...
+2026-03-21 10:14:07.764  DEBUG     TX (  4): 02 10 A0 B2
+2026-03-21 10:14:07.770  DEBUG     ECHO (  4): 02 10 A0 B2
+2026-03-21 10:14:09.785  DEBUG     RX: (timeout, no data)
+2026-03-21 10:14:09.786  ERROR     No start-diag response
+2026-03-21 10:14:09.911  INFO      Port closed. Total polls: 0

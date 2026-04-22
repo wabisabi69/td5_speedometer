@@ -1,0 +1,80 @@
+10:18:18.852 INFO     Log: logs\td5_v3_20260321_101818.log
+10:18:18.852 INFO     ============================================================
+10:18:18.852 INFO     TD5 K-Line Test v3 | COM8 | raw=True
+10:18:18.852 INFO     ============================================================
+10:18:18.885 INFO     
+--- Attempt 1/3 ---
+10:18:18.885 INFO     Fast init (25ms break)...
+10:18:18.963 DEBUG    DRAIN: 00
+10:18:18.964 INFO     Init frame...
+10:18:18.979 DEBUG    TX: 81 13 F7 81 0C
+10:18:18.998 DEBUG    ECHO: 81 13 F7 81 0C
+10:18:19.009 DEBUG    RX: 03 C1 57 8F AA
+10:18:19.010 INFO       Init OK: 03 C1 57 8F AA
+10:18:19.035 INFO     Start diag...
+10:18:19.057 DEBUG    TX: 02 10 A0 B2
+10:18:19.062 DEBUG    ECHO: 02 10 A0 B2
+10:18:19.078 DEBUG    RX: 01 50 51
+10:18:19.078 INFO       Response: 01 50 51
+10:18:19.079 INFO       Diag session OK
+10:18:19.104 INFO     Seed request...
+10:18:19.119 DEBUG    TX: 02 27 01 2A
+10:18:19.126 DEBUG    ECHO: 02 27 01 2A
+10:18:19.158 DEBUG    RX: 04 67 01 44 B9 69
+10:18:19.158 INFO       Seed: 0x44B9  Key: 0x879B
+10:18:19.184 INFO     Send key...
+10:18:19.212 DEBUG    TX: 04 27 02 9B 87 4F
+10:18:19.222 DEBUG    ECHO: 04 27 02 9B 87 4F
+10:18:19.238 DEBUG    RX: 03 7F 27 00 A9
+10:18:19.238 ERROR      Auth failed: 03 7F 27 00 A9
+10:18:20.239 INFO     
+--- Attempt 2/3 ---
+10:18:20.239 INFO     Fast init (25ms break)...
+10:18:20.315 DEBUG    DRAIN: 00
+10:18:20.315 INFO     Init frame...
+10:18:20.331 DEBUG    TX: 81 13 F7 81 0C
+10:18:20.352 DEBUG    ECHO: 81 13 F7 81 0C
+10:18:20.362 DEBUG    RX: 03 7F 81 00 03
+10:18:20.362 INFO       Init OK: 03 7F 81 00 03
+10:18:20.388 INFO     Start diag...
+10:18:20.410 DEBUG    TX: 02 10 A0 B2
+10:18:20.416 DEBUG    ECHO: 02 10 A0 B2
+10:18:20.432 DEBUG    RX: 01 50 51
+10:18:20.432 INFO       Response: 01 50 51
+10:18:20.433 INFO       Diag session OK
+10:18:20.458 INFO     Seed request...
+10:18:20.488 DEBUG    TX: 02 27 01 2A
+10:18:20.496 DEBUG    ECHO: 02 27 01 2A
+10:18:20.528 DEBUG    RX: 04 67 01 22 5C EA
+10:18:20.528 INFO       Seed: 0x225C  Key: 0xF1D1
+10:18:20.554 INFO     Send key...
+10:18:20.583 DEBUG    TX: 04 27 02 D1 F1 EF
+10:18:20.592 DEBUG    ECHO: 04 27 02 D1 F1 EF
+10:18:20.608 DEBUG    RX: 03 7F 27 00 A9
+10:18:20.608 ERROR      Auth failed: 03 7F 27 00 A9
+10:18:21.608 INFO     
+--- Attempt 3/3 ---
+10:18:21.609 INFO     Fast init (25ms break)...
+10:18:21.691 DEBUG    DRAIN: 00
+10:18:21.691 INFO     Init frame...
+10:18:21.707 DEBUG    TX: 81 13 F7 81 0C
+10:18:21.722 DEBUG    ECHO: 81 13 F7 81 0C
+10:18:21.738 DEBUG    RX: 03 7F 81 00 03
+10:18:21.738 INFO       Init OK: 03 7F 81 00 03
+10:18:21.764 INFO     Start diag...
+10:18:21.785 DEBUG    TX: 02 10 A0 B2
+10:18:21.802 DEBUG    ECHO: 02 10 A0 B2
+10:18:21.812 DEBUG    RX: 01 50 51
+10:18:21.812 INFO       Response: 01 50 51
+10:18:21.812 INFO       Diag session OK
+10:18:21.838 INFO     Seed request...
+10:18:21.864 DEBUG    TX: 02 27 01 2A
+10:18:21.882 DEBUG    ECHO: 02 27 01 2A
+10:18:21.898 DEBUG    RX: 04 67 01 11 2E AB
+10:18:21.898 INFO       Seed: 0x112E  Key: 0xD2BD
+10:18:21.924 INFO     Send key...
+10:18:21.943 DEBUG    TX: 04 27 02 BD D2 BC
+10:18:21.960 DEBUG    ECHO: 08 27 02 BD D2 BC
+10:18:23.973 ERROR      Auth failed: (empty)
+10:18:24.974 ERROR    Failed all retries
+10:18:25.094 INFO     Done. 0 polls.
